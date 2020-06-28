@@ -13,9 +13,22 @@
 
 ### header语句
 ```
-header = {'user_agent' : user_agent}
+header = {'user-agent' : user_agent}
 ```
-## 4.前端基础知识
-### 1 HTTP协议与浏览器的关系
 
-### 2 HTTP协议请求与返回头部
+## 4. get和post、cookie
+```
+get 属于向服务器请求数据（请求网页信息）
+post 属于向服务器提交数据（如用户登录，用户填写评论并提交）
+cookie 属于服务器验证客户端信息（用户密码登录）
+
+```
+
+## 5.scrapy框架
+```
+1.使用scrapy生成项目
+    scrapy startproject name
+
+2. 初始化项目文件
+    scrapy genspider douban  douban.com
+``` 
